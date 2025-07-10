@@ -83,6 +83,14 @@ python carga_csvs.py
 
 El script procesará cada archivo, estandarizará los nombres de las columnas y los insertará en la tabla correspondiente. Verás mensajes de progreso en la consola.
 
+## Análisis y Respuestas al Examen
+
+Las respuestas a los puntos solicitados en el documento `examen.docx` se encuentran desarrolladas en los siguientes archivos:
+
+- **`examen_seccion_sql.sql`**: Contiene todas las consultas en SQL utilizadas para responder a cada uno de los puntos del análisis de datos. Cada consulta está documentada para indicar a qué pregunta corresponde.
+
+- **`notebook.ipynb`**: Un Notebook de Jupyter que incluye el codigo que contesta cada uno de los puntos requeridos en la rubrica.
+
 ## Estructura del Proyecto
 
 ```
@@ -91,8 +99,8 @@ El script procesará cada archivo, estandarizará los nombres de las columnas y 
 ├── create_tables.sql          # Script SQL para la creación del esquema y las tablas.
 ├── docker-compose.yml         # Define el servicio de la base de datos PostgreSQL.
 ├── examen.docx                # Documento con los requerimientos del examen.
-├── examen_seccion_sql.sql     # Consultas SQL para resolver los puntos del examen.
-├── notebook.ipynb             # Notebook de Jupyter para análisis y visualización.
+├── examen_seccion_sql.sql     # Contiene las consultas SQL que responden a los puntos del examen.
+├── notebook.ipynb             # Notebook con el análisis, visualizaciones y respuestas del examen.
 ├── README.md                  # Este archivo.
 ├── requirements.txt           # Dependencias de Python.
 ├── csvs/                      # Carpeta que contiene los archivos de datos.
